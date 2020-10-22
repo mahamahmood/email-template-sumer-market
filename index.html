@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Template</title>
+    <style type="text/css">
+        /* @import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap'); */
+        * {
+            margin: 0;
+            border: 0;
+            padding: 0;
+            /* box-sizing: border-box;
+            border: 1px solid gold; */
+        }
+        body {
+            font-family: 'Catamaran', sans-serif;
+            background-color: #d8dbdb;
+            font-size: 18px;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2%;
+            color: #565859;
+        }
+        #wrapper {
+            background: #f6faff;
+        }
+        img {
+            max-width: 100%;
+        }
+        header {
+            width: 98%;
+        }
+        #logo {
+            max-width: 220px;
+            margin: 3% 0 0 5%;
+            float: left;
+        }
+        #callout {
+            float: right;
+            margin: 3% 3% 2% 0;
+        }
+        .social {
+            float: right;
+            list-style-type: none;
+        }
+        .social li {
+            display: inline;
+        }
+        .icon {
+            max-width: 28px;
+        }
+        .banner {
+            margin-bottom: 1%;
+        }
+        .one-col {
+            padding: 2%;
+        }
+        h1 {
+            letter-spacing: 1%;
+            padding-bottom: 6px;
+            font-size: 1.7em;
+        }
+        p {
+            text-align: justify;
+            padding-bottom: 9px;
+        }
+        .button-holder {
+            float: left;
+            margin: 0 2% 4% 0;
+        }
+        .btn {
+            float: left;
+            background: rgb(46, 51, 56);
+            color: #f6faff;
+            text-decoration: none;
+            font-weight: 800;
+            margin-top: 15px;
+            padding: 8px 12px;
+            border-radius: 8px;
+            letter-spacing: 1px;
+        }
+        .btn:hover {
+            background: #58585A;
+        }
+        .line {
+            clear: both;
+            height: 2px;
+            background-color: #e3e9e9;
+            margin: 4% auto;
+            width: 96%;
+        }
+        .featured {
+            text-align: center;
+            font-weight: 800;
+            font-size: 1.2em;
+            padding-bottom: 5px;
+            color: #666666;
+            padding: 0 2%;
+        }
+        .two-col {
+            float: left;
+            width: 46%;
+            padding: 2%;
+            /* margin: auto 2%; */
+        }
+        .two-col img {
+            height: 200px;
+            width: 100%;
+        }
+        .two-col h2, img{
+            letter-spacing: 1%;
+            padding-bottom: 6px;
+            font-size: 1.3em; 
+        }
+        .contact {
+            text-align: center;
+            padding-bottom: 3%;
+        }
+        @media (max-width: 600px) {
+            .two-col {
+                width: 97%;
+            }
+            .featured {
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!--- email wrapper -->
+    <div id="wrapper">
+        <header>
+            <div id="logo">
+                <h2><i>Sumer Market</i></h2>
+            </div>
+            <div id="callout">
+                <ul class="social">
+                    <li><a href="#" target="_blank"><img class="icon" src="https://i.imgur.com/eDRRnQH.png" alt="facebook"></a></li>
+                    <li><a href="#" target="_blank"><img class="icon" src="https://i.imgur.com/OLm2oba.png" alt="instagram"></a></li>
+                    <li><a href="#" target="_blank"><img class="icon" src="https://i.imgur.com/AHEgp98.png" alt="twitter"></a></li>
+                    <li><a href="#" target="_blank"><img class="icon" src="https://i.imgur.com/PCoZzDK.png" alt="linkedin"></a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="banner">
+            <a href="https://sumer-market.herokuapp.com/" target="_blank"><img src="https://i.imgur.com/S5awAsP.jpg" alt="Sumer Market Banner"></a>
+        </div>
+        <div class="one-col">
+            <h1>Lorem Ipsum Dolor Sit Amet Conse</h1>
+            <p>Iusto, dolore porro. Nisi, voluptate recusandae, ad aspernatur dolore rerum exercitationem illo rem autemaut pariatur doloribus excepturi nihil velit ea.</p>
+            <p> Nisi, voluptate recusandae, ad aspernatur dolore rerum exercitationem illo rem autem aut pariatur doloribus excepturi nihil velit ea. Iusto, dolore porro. Nisi, voluptate recusandae, adaspernatur dolore rerum exercitationem illo rem autem aut pariatur doloribus excepturi nihil velit ea.
+            </p>
+            <div class="button-holder">
+                <a class="btn" href="https://sumer-market.herokuapp.com/recipes" target="_blank">Explore All Recipes</a>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="featured"><i>Featured Recipes Of The Month</i></div>
+        <div class="two-col">
+            <h2>Falafal Recipe</h2>
+            <a href="https://sumer-market.herokuapp.com/recipes/5f41e8d4a6a9c815252f37e3" target="_blank"><img src="https://i.imgur.com/3M6LIxB.jpg" alt="falafel"></a>
+            <p>Iusto, dolore porro. Nisi, voluptate recusandae, ad aspernatur dolore rerum exercitationem illo rem autem aut pariatur doloribus excepturi nihil velit ea</p>
+            <a class="btn" href="https://sumer-market.herokuapp.com/recipes/5f41e8d4a6a9c815252f37e3" target="_blank">Keep Reading</a>
+        </div>
+        <div class="two-col">
+            <h2>Tabouli Salad Recipe</h2>
+            <a href="https://sumer-market.herokuapp.com/recipes/5f468a135a9cf800171e2d32" target="_blank"><img src="https://i.imgur.com/Dh6VsfA.jpg" alt="Tabouli"></a>
+            <p>Iusto, dolore porro. Nisi, voluptate recusandae, ad aspernatur dolore rerum exercitationem illo rem autem aut pariatur doloribus excepturi nihil velit ea</p>
+            <a class="btn" href="https://sumer-market.herokuapp.com/recipes/5f468a135a9cf800171e2d32" target="_blank">Keep Reading</a>
+        </div>
+        <div class="two-col">
+            <h2>Pita Bread Recipe</h2>
+            <a href="https://sumer-market.herokuapp.com/recipes/5f434ddf906c950e0d150c6a" target="_blank"><img src="https://i.imgur.com/CsiPFzP.jpg" alt="Pita Bread"></a>
+            <p>Iusto, dolore porro. Nisi, voluptate recusandae, ad aspernatur dolore rerum exercitationem illo rem autem aut pariatur doloribus excepturi nihil velit ea</p>
+            <a class="btn" href="https://sumer-market.herokuapp.com/recipes/5f434ddf906c950e0d150c6a" target="_blank">Keep Reading</a>
+        </div>
+        <div class="two-col">
+            <h2>Fattoush Salad Recipe </h2>
+            <a href="https://sumer-market.herokuapp.com/recipes/5f41e866a6a9c815252f37e2" target="_blank"><img src="https://i.imgur.com/4hSAKDs.jpg" alt="Fattoush"></a>
+            <p>Iusto, dolore porro. Nisi, voluptate recusandae, ad aspernatur dolore rerum exercitationem illo rem autem aut pariatur doloribus excepturi nihil velit ea</p>
+            <a class="btn" href="https://sumer-market.herokuapp.com/recipes/5f41e866a6a9c815252f37e2" target="_blank">Keep Reading</a>
+        </div>
+        <div class="line"></div>
+        <p class="contact">
+            Sumer Market<br />
+            (000)000-0000<br />
+            00 Street Address, City, State , 00000<br />
+            contact@sumermarket.com
+        </p>
+    </div>
+    <!--- end of email wrapper -->
+
+</body>
+
+</html>
